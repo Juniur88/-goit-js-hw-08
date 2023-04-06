@@ -17,7 +17,8 @@ function onInputData(e) {
 }
 
 function reloadPage() {
-  
+  email.value = dataForm.email || '';
+  message.value = dataForm.message || ''; 
 }
 
 function onFormSubmit(e) {
